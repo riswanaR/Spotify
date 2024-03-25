@@ -1,0 +1,116 @@
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #121212;
+  
+}
+*{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+
+}
+.container-border{
+    border-bottom: 2px solid rgb(70, 68, 68);
+    
+}
+.form-border{
+    border-top: 1px solid rgb(70, 68, 68); 
+    border-bottom: 1px solid rgb(70, 68, 68);
+}
+.table-border{
+    border-bottom: 2px solid rgb(70, 68, 68);
+}
+#username  {
+    border: 2px solid white;
+}
+#email{
+    border: 2px solid white;
+}
+ #password{
+    border: 2px solid white;
+}
+.border1{
+    border-bottom: 1px solid gray;
+}
+.border-login{
+    border-top: 1px solid rgb(70, 68, 68); 
+}
+.container-fluid1{
+    margin-left: 500px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-field {
+  width: 250px;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.btn {
+  background-color: #1DB954;
+  width: 270px;
+  color: #121212;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.lofi1{
+    background-image: url('../public/aesthetic-3.jpg');
+}
+
+
+  .hover-icon:hover .icon-td {
+    display: block;
+  }
+
+  .hover-icon:hover .text-td {
+    display: none;
+  }
+
+  .hover-icon .icon-td {
+    display: none;
+  }
+
+  .hover-icon .text-td {
+    display: block;
+  }
+
+  .col-span-1 {
+    position: relative;
+}
+
+.col-span-1:hover .hover-button {
+    display: flex;
+}
+
+.hover-button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-one{
+  background-color: #13303a}
+
+  .image-rotate{
+    transform: rotate(20deg) ;
+  }
+  .border-range{
+    border-bottom: 4px solid gray;
+  }
+
+  
